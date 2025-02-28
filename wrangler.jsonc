@@ -1,0 +1,27 @@
+{
+  "name": "feeling-responsive",
+  "compatibility_date": "2025-02-28",
+  "workers_dev": true,
+  "assets": {
+    "directory": "_site"
+  },
+  "vars": {
+    "JEKYLL_ENV": "production",
+    "RUBY_VERSION": "3.1"
+  }
+  // "env": {
+  //   "staging": {
+  //     "name": "my-worker-staging",
+  //     "route": {
+  //       "pattern": "staging.example.org/*",
+  //       "zone_name": "example.org"
+  //     },
+  //     "kv_namespaces": [
+  //       {
+  //         "binding": "<MY_NAMESPACE>",
+  //         "id": "<STAGING_KV_ID>"
+  //       }
+  //     ]
+  //   }
+  // }
+}
